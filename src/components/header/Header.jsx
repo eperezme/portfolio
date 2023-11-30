@@ -1,7 +1,8 @@
 import React from "react";
 import "./header.css";
 import CTA from "./CTA";
-import ME from "../../assets/me.jpg";
+import ME from "../../assets/me.png";
+import HeatherSocials from "./HeatherSocials";
 
 function Header() {
 	return (
@@ -11,6 +12,7 @@ function Header() {
 				<h1>Edu</h1>
 				<h5 className="text-light">Data scientist</h5>
 				<CTA />
+				<HeatherSocials />
 
 				<div className="me">
 					<img src={ME} alt="" />
