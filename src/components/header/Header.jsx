@@ -1,6 +1,7 @@
 import React from "react";
 import "./header.css";
 import CTA from "./CTA";
+import ME from "../../assets/me.jpg";
 
 function Header() {
 	return (
@@ -10,6 +11,14 @@ function Header() {
 				<h1>Edu</h1>
 				<h5 className="text-light">Data scientist</h5>
 				<CTA />
+
+				<div className="me">
+					<img src={ME} alt="" />
+				</div>
+
+				<a href="#contact" className="scroll__down">
+					Scroll Down
+				</a>
 			</div>
 		</header>
 	);
