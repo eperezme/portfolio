@@ -8,6 +8,8 @@ import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 import Services from "./components/services/Services";
 
+// [ ] Make a vertical DNA strand that unfolds as you scroll down
+
 const App = () => {
 	return (
 		<>

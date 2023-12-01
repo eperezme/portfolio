@@ -12,14 +12,14 @@ function About() {
 			<h2>About Me</h2>
 
 			<div className="container about__container">
-				<div className="about__me">
+				<div className="about__me" data-aos="fade-left">
 					<div className="about__me-image">
 						<img src={ME} alt="About Image" />
 					</div>
 				</div>
 
 				<div className="about__content">
-					<div className="about__cards">
+					<div className="about__cards" data-aos="fade-right">
 						<article className="about__card">
 							<FaAward className="about__icon" />
 							<h5>Experience</h5>
@@ -37,14 +37,14 @@ function About() {
 						</article>
 					</div>
 
-					<p>
+					<p data-aos="fade-down">
 						Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia dignissimos fuga tempore necessitatibus provident ex sunt veritatis eos,
 						numquam facilis expedita ratione commodi blanditiis eius unde dolores, quo quis illo. Lorem ipsum dolor sit, amet consectetur adipisicing
 						elit. Magnam et quo illum? Odit debitis eos ad velit possimus totam repellat maxime laboriosam, illo libero quos voluptates provident
 						nulla, quo nam.
 					</p>
 
-					<a href="#contact" className="btn btn-primary">
+					<a href="#contact" className="btn btn-primary" data-aos="fade-down">
 						Let's Talk
 					</a>
 				</div>
