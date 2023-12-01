@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import ME from "../../assets/_MG_0114.png";
+import ABME from "../../assets/about.png";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { FaProjectDiagram } from "react-icons/fa";
@@ -14,7 +14,7 @@ function About() {
 			<div className="container about__container">
 				<div className="about__me" data-aos="fade-left">
 					<div className="about__me-image">
-						<img src={ME} alt="About Image" />
+						<img src={ABME} alt="About Image"></img>
 					</div>
 				</div>
 
