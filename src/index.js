@@ -1,4 +1,4 @@
-import ReactDOM from "react-dom";
+import { createRoot } from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import AOS from "aos";
@@ -6,4 +6,5 @@ import "aos/dist/aos.css";
 
 AOS.init();
 
-ReactDOM.render(<App />, document.querySelector("#root"));
+const root = createRoot(document.getElementById("root"));
+root.render(<App tab="root" />);

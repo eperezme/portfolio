@@ -10,15 +10,40 @@
 	text-decoration: none;
 }
 
+@property --gradient-angle {
+	syntax: "<angle>";
+	initial-value: 0deg;
+	inherits: false;
+}
+
+@keyframes rotaion {
+	0% {--gradient-angle: 0deg;}
+	100% {--gradient-angle: 360deg;}
+}
+
 :root {
 	--color-bg: #0f0f16;
-	--color-bg-variant: hsl(219, 65%, 33%);
+	--color-bg-variant: #1c438c;
 	--color-primary: #4db5ff;
 	--color-primary-variant: rgba(77, 181, 255, 0.4);
 	--color-white: #fff;
 	--color-light: rgba(255, 255, 255, 0.6);
+	--color-highlight: #4db5ff;
+
+	--rw-1:#FF2E2E;
+  --rw-2:#FF831E;
+  --rw-3:#FCFF51;
+  --rw-4:#58FF57;
+  --rw-5:#575FFF;
+  --rw-6:#D257FF;
+  --rw-7:#FF57E5;
+  --rw-8:#FF1556;
+
+
 
 	--transition: all 400ms ease;
+
+	--border-size: -1px;
 
 	--container-width-lg: 75%;
 	--container-width-md: 86%;
@@ -58,7 +83,6 @@ h5 {
 
 section {
 	margin-top: 8rem;
-	height: 100vh;
 }
 
 section > h2,

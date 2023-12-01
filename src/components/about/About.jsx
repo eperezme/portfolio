@@ -38,8 +38,10 @@ function About() {
 					</div>
 
 					<p>
-						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus aspernatur debitis, quas soluta nobis, atque et iusto vero fugit,
-						earum eius molestias quos tempora reiciendis maiores vel deserunt sapiente. Atque.
+						Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia dignissimos fuga tempore necessitatibus provident ex sunt veritatis eos,
+						numquam facilis expedita ratione commodi blanditiis eius unde dolores, quo quis illo. Lorem ipsum dolor sit, amet consectetur adipisicing
+						elit. Magnam et quo illum? Odit debitis eos ad velit possimus totam repellat maxime laboriosam, illo libero quos voluptates provident
+						nulla, quo nam.
 					</p>
 
 					<a href="#contact" className="btn btn-primary">
