@@ -10,19 +10,19 @@ import Services from "./components/services/Services";
 
 // [ ] Make a vertical DNA strand that unfolds as you scroll down
 
-const App = () => {
+export const App = () => {
 	return (
 		<>
-			<Header />
+		
+			{/* <Header />
 			<Nav />
 			<About />
 			<Experience />
 			<Services />
 			<Portfolio />
 			<Contact />
-			<Footer />
+			<Footer /> */}
 		</>
 	);
 };
 
-export default App;

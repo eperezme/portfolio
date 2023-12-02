@@ -1,160 +1,398 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
-
-* {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	outline: 0;
-	box-sizing: border-box;
-	list-style: none;
-	text-decoration: none;
+.div-px {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 320px;
+  position: relative;
+  width: 1920px;
+  background: rgba(22, 27, 34, 1);
 }
 
-@property --gradient-angle {
-	syntax: "<angle>";
-	initial-value: 0deg;
-	inherits: false;
+.div-px .div-position {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  max-width: 1280px;
+  padding: 128px 0px 0px;
+  position: relative;
+  width: 1280px;
 }
 
-@keyframes rotaion {
-	0% {--gradient-angle: 0deg;}
-	100% {--gradient-angle: 360deg;}
+.div-px .div-d-flex {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  padding: 80px 0.01px 0px 0px;
+  position: relative;
+  width: 100%;
 }
 
-:root {
-	--color-bg: #0f0f16;
-	--color-bg-variant: #1c438c;
-	--color-primary: #4db5ff;
-	--color-primary-variant: rgba(77, 181, 255, 0.4);
-	--color-white: #fff;
-	--color-light: rgba(255, 255, 255, 0.6);
-	--color-highlight: #4db5ff;
-
-	--rw-1:#FF2E2E;
-  --rw-2:#FF831E;
-  --rw-3:#FCFF51;
-  --rw-4:#58FF57;
-  --rw-5:#575FFF;
-  --rw-6:#D257FF;
-  --rw-7:#FF57E5;
-  --rw-8:#FF1556;
-
-
-
-	--transition: all 400ms ease;
-
-	--border-size: -1px;
-
-	--container-width-lg: 75%;
-	--container-width-md: 86%;
-	--container-width-sm: 90%;
+.div-px .div-col {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 0px 0px 0px;
+  position: relative;
+  width: 106.66px;
 }
 
-html {
-	scroll-behavior: smooth;
+.div-px .div-mx-auto-margin {
+  align-items: center;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 47.33px;
+  position: relative;
+  width: 106.66px;
 }
 
-::-webkit-scrollbar {
-	display: none;
+.div-px .div-mx-auto {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 3px 0px 6px;
+  position: relative;
+  width: 12px;
 }
 
-body {
-	font-family: "Roboto", sans-serif;
-	font-size: 1rem;
-	font-weight: 400;
-	background: var(--color-bg);
-	color: var(--color-white);
-	line-height: 1.7;
+.div-px .div-d-inline-block {
+  border: 2px solid;
+  border-color: var(--githubcomnero-30);
+  border-radius: 9999px;
+  height: 12px;
+  position: relative;
+  width: 12px;
 }
 
-/* ================ GENERAL STYLES ============= */
-.container {
-	width: var(--container-width-lg);
-	margin: 0 auto;
+.div-px .div-home-campaign {
+  align-items: center;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 51.83px;
+  position: relative;
+  width: 106.66px;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5 {
-	font-weight: 500;
+.div-px .div {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgb(124, 114, 255) 30%);
+  border-radius: 6px;
+  flex: 1;
+  flex-grow: 1;
+  position: relative;
+  width: 3px;
 }
 
-section {
-	margin-top: 8rem;
+.div-px .div-mx-auto-wrapper {
+  align-items: center;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 16px 41.33px;
+  position: relative;
+  width: 106.66px;
 }
 
-section > h2,
-section > h5 {
-	text-align: center;
-	color: var(--color-light);
+.div-px .div-position-wrapper {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 0px 4px;
+  position: relative;
+  width: 24px;
 }
 
-section > h2 {
-	color: var(--color-primary);
-	margin-bottom: 3rem;
+.div-px .div-position-2 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  position: relative;
 }
 
-.text-light {
-	color: var(--color-light);
+.div-px .span-position {
+  background-color: var(--githubcomolive);
+  border-radius: 9999px;
+  filter: blur(18px);
+  height: 28px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 24px;
 }
 
-a {
-	color: var(--color-primary);
-	transition: var(--transition);
+.div-px .SVG {
+  height: 24px;
+  position: relative;
+  width: 24px;
 }
 
-a:hover {
-	color: var(--color-white);
+.div-px .div-home-campaign-2 {
+  background: linear-gradient(180deg, rgb(124, 114, 255) 0%, rgb(45, 164, 78) 80%, rgb(63, 185, 80) 100%);
+  border-radius: 6px;
+  flex: 1;
+  flex-grow: 1;
+  position: relative;
+  width: 3px;
 }
 
-.btn {
-	width: max-content;
-	display: inline-block;
-	color: var(--color-primary);
-	padding: 0.75rem 1.2rem;
-	border-radius: 0.4rem;
-	cursor: pointer;
-	border: 1px solid var(--color-primary);
-	transition: var(--transition);
+.div-px .div-col-margin {
+  height: 595px;
+  position: relative;
+  width: 1173.33px;
 }
 
-.btn:hover {
-	background: var(--color-white);
-	color: var(--color-bg);
-	border-color: transparent;
+.div-px .div-col-2 {
+  height: 619px;
+  position: relative;
+  top: -24px;
+  width: 1173px;
 }
 
-.btn-primary {
-	background: var(--color-primary);
-	color: var(--color-bg);
+.div-px .div-d-flex-2 {
+  height: 48px;
+  left: 0;
+  position: absolute;
+  top: 261px;
+  width: 1173px;
 }
 
-img {
-	display: block;
-	width: 100%;
-	object-fit: cover;
+.div-px .div-border-top {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  left: 489px;
+  padding: 0px 16px;
+  position: absolute;
+  top: 0;
 }
 
-/* ================ MEDIA QUERIES (MEDIUM DEVICES) ============= */
-@media screen and (max-width: 1024px) {
-	.container {
-		width: var(--container-width-md);
-	}
-
-	section {
-		margin-top: 6rem;
-	}
+.div-px .div-border-top-2 {
+  border-color: var(--githubcomouter-space);
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  height: 48px;
+  position: relative;
+  width: 1px;
 }
 
-/* ================ MEDIA QUERIES (SMALL DEVICES) ============= */
-@media screen and (max-width: 600px) {
-	.container {
-		width: var(--container-width-sm);
-	}
+.div-px .link {
+  align-items: flex-start;
+  background-color: var(--githubcomnero-02);
+  border-radius: 6px;
+  box-shadow: inset 0px 0px 0px 1px #bc8cff;
+  display: inline-flex;
+  gap: 2.5px;
+  justify-content: center;
+  left: 522px;
+  overflow: hidden;
+  padding: 16px 24px 16px 26.7px;
+  position: absolute;
+  top: 0;
+}
 
-	section > h2 {
-		margin-bottom: 2rem;
-	}
+.div-px .text-wrapper {
+  color: var(--githubcomnero);
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 16px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.div-px .img {
+  height: 16px;
+  position: relative;
+  width: 16px;
+}
+
+.div-px .form {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 489px;
+}
+
+.div-px .div-d-flex-3 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  padding: 0px 1.53e-5px 0px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.div-px .descriptions {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  position: relative;
+}
+
+.div-px .details {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+
+.div-px .input {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: var(--githubcomnero);
+  border: 1px solid;
+  border-color: var(--githubcomgeyser);
+  border-radius: 6px 0px 0px 6px;
+  box-shadow: inset 0px 1px 0px 1px #d0d7de33;
+  display: flex;
+  flex: 0 0 auto;
+  padding: 14.5px 13px;
+  position: relative;
+  width: 100%;
+}
+
+.div-px .div-placeholder {
+  align-items: flex-start;
+  background: none;
+  border: none;
+  color: #6e7781;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  font-family: var(--github-com-inter-regular-16-font-family);
+  font-size: var(--github-com-inter-regular-16-font-size);
+  font-style: var(--github-com-inter-regular-16-font-style);
+  font-weight: var(--github-com-inter-regular-16-font-weight);
+  letter-spacing: var(--github-com-inter-regular-16-letter-spacing);
+  line-height: var(--github-com-inter-regular-16-line-height);
+  margin-top: -1px;
+  padding: 0px 163.61px 0px 0px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.div-px .button {
+  all: unset;
+  align-items: center;
+  background: linear-gradient(180deg, rgba(183, 52, 179, 0.15) 0%, rgba(164, 46, 156, 0) 100%);
+  border-radius: 0px 6px 6px 0px;
+  box-sizing: border-box;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  padding: 16px 24.53px 16px 24.74px;
+  position: relative;
+}
+
+.div-px .div-my {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  left: 0;
+  position: absolute;
+  top: 405px;
+  width: 1173px;
+}
+
+.div-px .p-d-block {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 739.33px 0px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.div-px .p {
+  color: var(--githubcompale-sky);
+  font-family: "Inter", Helvetica;
+  font-size: 19.7px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.div-px .div-d-flex-4 {
+  align-self: stretch;
+  height: 80px;
+  object-fit: cover;
+  position: relative;
+  width: 100%;
+}
+
+.div-px .p-mktg {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  padding: 0px 592.33px 0px 0px;
+  position: absolute;
+  top: 133px;
+  width: 1173px;
+}
+
+.div-px .text-wrapper-2 {
+  color: var(--githubcomraven);
+  font-family: "Inter", Helvetica;
+  font-size: 23.8px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 32px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.div-px .heading {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  padding: 0px 246.33px 6px 0px;
+  position: absolute;
+  top: 39px;
+  width: 1173px;
+}
+
+.div-px .text-wrapper-3 {
+  color: var(--githubcomnero);
+  font-family: "Inter", Helvetica;
+  font-size: 96px;
+  font-weight: 600;
+  letter-spacing: -0.8px;
+  line-height: 80px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
 }
