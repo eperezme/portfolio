@@ -29,6 +29,8 @@
 	--color-white: #fff;
 	--color-light: rgba(255, 255, 255, 0.6);
 	--color-highlight: #4db5ff;
+	--color-text-test: rgba(235, 245, 255, 0.2);
+  --color-text-test-2: rgba(235, 245, 255, 0.5);
 
 	--rw-1:#FF2E2E;
   --rw-2:#FF831E;

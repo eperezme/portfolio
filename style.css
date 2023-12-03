@@ -1,3 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+
 :root{
   /* COLORS */
   --color-bg: #0d1117;
@@ -10,11 +21,25 @@
   --color-pink: #f778ba;
   --color-purple: #bc8cff;
   --color-figures: #26292f;
+  --color-text-test: rgba(235, 245, 255, 0.2);
+  --color-text-test-2: rgba(235, 245, 255, 0.5);
 
-
+  --container-width-lg: 75%;
+	--container-width-md: 86%;
+	--container-width-sm: 90%;
 }
 
-/* General styles */
+html {
+	scroll-behavior: smooth;
+}
+
+/* ================ GENERAL STYLES ============= */
+.container {
+	width: var(--container-width-lg);
+	margin: 0 auto;
+}
+
+
 .h0-title, .h1-title, .h2-title, .h3-title, .h4-title, .h5-title {
   font-family: "Mona Sans","Mona Sans Header Fallback",-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
   font-feature-settings: unset;
