@@ -1,14 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
 
 * {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	outline: 0;
-	box-sizing: border-box;
-	list-style: none;
-	text-decoration: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Mona Sans","Mona Sans Header Fallback",-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-feature-settings: unset;
+  font-size: var(--body-font-size, 14px);
+  line-height: 1.5;
+  word-wrap: break-word;
+  word-break: keep-all;
 }
+
 
 @property --gradient-angle {
 	syntax: "<angle>";
@@ -20,26 +27,25 @@
 	0% {--gradient-angle: 0deg;}
 	100% {--gradient-angle: 360deg;}
 }
+:root{
+  /* COLORS */
+  --color-bg: rgb(13, 17, 23);
+  --color-bg-secondary: rgb(22, 27, 34);
+  --color-text: #ffffff;
+  --color-text-secondary: rgb(125, 133, 144);
+  --color-text-tertiary: rgb(110, 118, 129);
+  --color-green:rgba(63, 185, 80, 1);
+  --color-blue: rgba(51, 179, 174, 1);
+  --color-pink: rgba(247, 120, 186, 1);
+  --color-purple: rgba(124, 114, 255, 1);
+  --color-figure: rgba(255, 255, 255, 1);
 
-:root {
-	--color-bg: #0f0f16;
-	--color-bg-variant: #1c438c;
-	--color-primary: #4db5ff;
-	--color-primary-variant: rgba(77, 181, 255, 0.4);
-	--color-white: #fff;
-	--color-light: rgba(255, 255, 255, 0.6);
-	--color-highlight: #4db5ff;
-	--color-text-test: rgba(235, 245, 255, 0.2);
-  --color-text-test-2: rgba(235, 245, 255, 0.5);
+  --borderColor-default: rgb(125, 133, 144);
+  --color-border-default: rgb(48, 54, 61);
 
-	--rw-1:#FF2E2E;
-  --rw-2:#FF831E;
-  --rw-3:#FCFF51;
-  --rw-4:#58FF57;
-  --rw-5:#575FFF;
-  --rw-6:#D257FF;
-  --rw-7:#FF57E5;
-  --rw-8:#FF1556;
+  --border-radius: 0.75rem;
+  --border-radoius-md: 0.375rem;
+  --border-radius-sm: 0.1875rem;
 
 
 

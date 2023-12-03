@@ -1,6 +1,8 @@
-.test__container{
+
+
+.vcard-container{
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
   gap: 2rem;
 }
 
@@ -10,7 +12,7 @@
   justify-content: space-between;
   background: #161b22;
   margin: 1rem auto;
-  border-radius: .8rem;
+  border-radius: .75rem 8px;
   text-align: center;
 }
 
@@ -22,10 +24,68 @@
 }
 
 .test__card > img{
-  border-radius: .8rem;
+  border-radius: .75rem 8px;
   align-self: flex-end;
 }
 
-.highlight{
-  color: var(--color-primary);
+.vcard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: var(--color-bg-secondary);
+  border: var(--borderWidth-thin, 1px) solid var(--color-border-default);
+  border-radius:  var(--border-radius, 8px);
 }
+
+.vcard > img {
+  border-radius: var(--border-radius);
+  align-self: flex-end;
+}
+
+.vcard > p {
+  padding: 2.5rem;
+  color: var(--color-text-secondary);
+  text-align: left;
+  font-weight: 500 !important;
+  font-size: 20px !important;
+  line-height: 28px !important;
+}
+
+
+
+em {
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 20px !important;
+  line-height: 28px !important;
+  color: var(--color-text);
+}
+
+/* ============= MEDIA QUERIES ============ */
+
+@media screen and (min-width: 1012px) {
+  .vcard > p {
+    padding-top: var(--base-size-64, 64px); 
+    padding-bottom: var(--base-size-64, 64px);
+    padding-right: var(--base-size-128, 128px);
+    padding-left: var(--base-size-64, 64px);
+}
+}
+@media screen and (min-width: 768px) {
+  
+  .vcard-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+  
+
+}
+
+@media sceen and (min-width: 544px) {
+  .vcard > p {
+    padding: 2.5rem;
+  }
+}
+
+
