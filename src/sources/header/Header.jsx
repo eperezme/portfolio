@@ -38,7 +38,7 @@ const Header = () => {
                 <div className="col-11 text-left pl-2 pl-sm-0 mt-n4">
                   <div className="position-relative z-1 mb-2 mb-sm-6">
                     <h1 className="h0-mktg mb-2 position-relative z-2">
-                      <span style={{fontSize: "1.2em"}}>Eduard Perez Mendez</span>
+                      <span style={{fontSize: "1.2em"}}>Eduard Perez<br />Mendez</span>
                     </h1>
                     <p className="f2-mktg text-normal color-fg-muted mb-3 mb-md-10 position-relative z-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio optio nisi fugiat recusandae incidunt aut ullam corrupti atque numquam ut tempore nihil unde quibusdam sit iusto, consequatur aspernatur voluptas eos!</p>
                   <div className="d-flex flex-column flex-md-row">
