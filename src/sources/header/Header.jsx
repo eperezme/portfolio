@@ -15,7 +15,8 @@ const Header = () => {
   return (
       <div className="color-header home-campaign-productivity js-section overflow-hidden px-3 pb-0 pt-5">
         <div className="container-xl position-relative">
-        <img alt="" aria-hidden="true" width="2236" height="1630" className="position-absolute top-0 height-auto events-none d-none d-sm-block" style={{width: "min(1118px, max(100vh, 100vw))", left: "67%"}} src={IMG1}/>
+          {/* [ ] Fix image */}
+        <img alt="" aria-hidden="true" width="2236" height="1630" className="position-absolute top-0 height-auto events-none d-none d-sm-block" style={{width: "min(1118px, max(100vh, 100vw))", left: "7%"}} src={IMG1}/>
         </div>
         <div className="color-header home-campaign-hero">
           <div className="position-relative pt-3 pt-sm-8 pt-lg-12 container-xl js-build-in-trigger build-in-animate">
