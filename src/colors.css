@@ -3,6 +3,8 @@
       --bgColor-muted: rgb(22, 27, 34);
       --bgColor-default: rgb(13, 17, 23);
 
+      --fgColor-default: #ffffff;
+      --fgColor-muted: rgb(125, 133, 144);
 
       --color-bg: rgb(13, 17, 23);
       --color-bg-secondary: rgb(22, 27, 34);
@@ -15,7 +17,8 @@
       --color-purple: rgba(124, 114, 255, 1);
       --color-figure: rgba(255, 255, 255, 1);
     
-      --borderColor-default: rgb(125, 133, 144);
+
+      --borderColor-default: rgb(48, 54, 61);
       --color-border-default: rgb(48, 54, 61);
     
       --container-width-lg: 75%;
@@ -25,7 +28,20 @@
       --border-radius: 0.75rem;
       --border-radoius-md: 0.375rem;
       --border-radius-sm: 0.1875rem;
+
+      --color-mktg-btn-shadow-outline: rgba(255, 255, 255, 0.25) 0 0 0 1px inset;
+      --color-marketing-icon-primary: var(--color-scale-blue-2);
+      --color-marketing-icon-secondary: var(--color-scale-blue-5);
+      --color-mktg-btn-bg: #f6f8fa;
+      --color-mktg-btn-shadow-focus: rgba(255, 255, 255, 0.25) 0 0 0 4px;
+      --color-mktg-btn-shadow-hover: 0 4px 7px rgba(0, 0, 0, 0.15), 0 100px 80px rgba(255, 255, 255, 0.02), 0 42px 33px rgba(255, 255, 255, 0.024), 0 22px 18px rgba(255, 255, 255, 0.028), 0 12px 10px rgba(255, 255, 255, 0.034), 0 7px 5px rgba(255, 255, 255, 0.04), 0 3px 2px rgba(255, 255, 255, 0.07);
+      --color-mktg-btn-shadow-hover-muted: white 0 0 0 2px inset;
+    
   
+}
+
+.home-campaign-hero {
+  --mktg-accent-primary: #7c72ff;
 }
 
 .color-header {
@@ -63,3 +79,13 @@
 body > .mb-md-5 {
     margin-bottom: var(--base-size-32, 32px) !important;
 }
+
+.feature-card-mktg .color-fg-muted {
+  color: rgba(235,245,255,.5) !important;
+}
+
+.home-campaign-enterprise {
+  box-shadow: #bc8cff 0 0 0 1px inset;
+}
+
+
