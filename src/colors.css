@@ -1,5 +1,9 @@
 :root {
       /* COLORS */
+      --bgColor-muted: rgb(22, 27, 34);
+      --bgColor-default: rgb(13, 17, 23);
+
+
       --color-bg: rgb(13, 17, 23);
       --color-bg-secondary: rgb(22, 27, 34);
       --color-text: #ffffff;
@@ -43,6 +47,19 @@
   --mktg-accent-secondary: #f778ba;
 }
 
-.color-bg-subtle{
-  background-color: var(--color-bg-secondary);
+.text-accent-primary{
+  color: var(--mktg-accent-primary);
+}
+
+.text-gradient-mktg {
+  background: -webkit-linear-gradient(-70deg, var(--mktg-accent-primary, #9867f0) 0%, var(--mktg-accent-secondary, #ed4e50) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
+body > .mb-md-5 {
+    margin-bottom: var(--base-size-32, 32px) !important;
 }

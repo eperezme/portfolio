@@ -146,7 +146,7 @@ function Skills() {
     </div>
   </div>
   <div className="col-1 d-flex flex-column flex-items-center js-build-in-trigger build-in-animate">
-    <div className="home-campaign-git-line mt-n3 mt-md-n4 mb-n8 rounded js-build-in-item build-in-scale-top build-in-animate" style={{height: "160px", background: "linear-gradient(transparent, #33B3AE 40%)",}}></div>
+    <div className="home-campaign-git-line mt-md-1 mb-n8 rounded js-build-in-item build-in-scale-top build-in-animate" style={{height: "160px", background: "linear-gradient(transparent, #33B3AE 40%)",}}></div>
   </div>
   </div>
     </div>
