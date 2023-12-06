@@ -8,7 +8,7 @@ import IMG2 from '../../assets/wood.jpg'
 
 function Skills() {
   return (
-    <div>
+    <div className='color-skills js-section overflow-hidden px-3 pb-8 pt-5'>
       {/* SKILLS */}
       <div className='container-xl'>
   {/* Title */}

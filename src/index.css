@@ -84,18 +84,10 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-}
+
+
+
+
 
 /* ================ CARDS ============= */
 
@@ -131,6 +123,10 @@ button:focus-visible {
 
 .hcard {
   transform: perspective(700px) rotateX('0.93deg') rotateY(0.13deg);
+}
+
+.git-branch-vertical-blue {
+  background: var(--github-com-linear-black-keppel-keppel-black, linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #33B3AE 33.33%, #33B3AE 66.67%, rgba(0, 0, 0, 0.00) 100%));
 }
 
 /* ============= MEDIA QUERIES ============ */

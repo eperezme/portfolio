@@ -13,11 +13,11 @@ import CV from '../../assets/CV.pdf'
 
 const Header = () => {
   return (
-      <div className="overflow-hidden">
+      <div className="color-header home-campaign-productivity js-section overflow-hidden px-3 pb-8 pt-5">
         <div className="container-xl position-relative">
         <img alt="" aria-hidden="true" width="2236" height="1630" className="position-absolute top-0 height-auto events-none d-none d-sm-block" style={{width: "min(1118px, max(100vh, 100vw))", left: "67%"}} src={IMG1}/>
         </div>
-        <div className="px-3 home-campaign-hero">
+        <div className="px-3 color-header home-campaign-hero">
           <div className="position-relative pt-3 pt-sm-8 pt-lg-12 container-xl js-build-in-trigger build-in-animate">
             <div className="d-flex pt-sm-9">
               <div className='col-1 d-flex flex-column events-none position-relative'>

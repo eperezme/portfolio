@@ -1,7 +1,9 @@
 import { useState } from 'react'
 
 // CSS
+import "./index.css"
 import './App.css'
+import './colors.css'
 // import {ThemeProvider, BaseStyles} from '@primer/react'
 import '@primer/css/utilities/index.scss'
 import '@primer/css/core/index.scss'

@@ -1,0 +1,48 @@
+:root {
+      /* COLORS */
+      --color-bg: rgb(13, 17, 23);
+      --color-bg-secondary: rgb(22, 27, 34);
+      --color-text: #ffffff;
+      --color-text-secondary: rgb(125, 133, 144);
+      --color-text-tertiary: rgb(110, 118, 129);
+      --color-green:rgba(63, 185, 80, 1);
+      --color-blue: rgba(51, 179, 174, 1);
+      --color-pink: rgba(247, 120, 186, 1);
+      --color-purple: rgba(124, 114, 255, 1);
+      --color-figure: rgba(255, 255, 255, 1);
+    
+      --borderColor-default: rgb(125, 133, 144);
+      --color-border-default: rgb(48, 54, 61);
+    
+      --container-width-lg: 75%;
+      --container-width-md: 86%;
+      --container-width-sm: 90%;
+    
+      --border-radius: 0.75rem;
+      --border-radoius-md: 0.375rem;
+      --border-radius-sm: 0.1875rem;
+  
+}
+
+.color-header {
+  --mktg-accent-primary: #7c72ff;
+}
+
+.color-skills {
+  --mktg-accent-primary: #3fb950;
+  --mktg-accent-secondary: #3fb950;
+}
+
+.color-experience {
+  --mktg-accent-primary: #33b3ae;
+  --mktg-accent-secondary: #33b3ae;
+}
+
+.color-projects {
+  --mktg-accent-primary: #f778ba;
+  --mktg-accent-secondary: #f778ba;
+}
+
+.color-bg-subtle{
+  background-color: var(--color-bg-secondary);
+}
