@@ -129,6 +129,10 @@ button:focus-visible {
   line-height: 28px !important;
 }
 
+.hcard {
+  transform: perspective(700px) rotateX('0.93deg') rotateY(0.13deg);
+}
+
 /* ============= MEDIA QUERIES ============ */
 
 @media screen and (min-width: 1012px) {
@@ -146,7 +150,7 @@ button:focus-visible {
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
   }
-  
+
 
 }
 
