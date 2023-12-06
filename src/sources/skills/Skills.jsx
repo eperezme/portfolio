@@ -60,6 +60,7 @@ function Skills() {
             {/* [ ] REPLACE IMAGE */}
             <img src="https://github.githubassets.com/assets/illu-copilot-sidebar-3d2efb504577.png" loading="lazy" width="960" height="1222" alt="" decoding="async" className="width-full d-block height-auto"/>
           </div>
+          <img alt="" aria-hidden="true" width="1000" height="1000" className="position-absolute d-none d-md-block events-none js-build-in-item build-in-fade build-in-animate" style={{bottom: "-300px", right: "-200px", transitionDelay: "300ms",}} loading="lazy" decoding="async" src="https://github.githubassets.com/assets/bg-glow-purple-6e9a6a96cb04.png"></img>
           </div>
         </div>
       </div>
