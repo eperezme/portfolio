@@ -77,7 +77,7 @@ function Skills() {
   </div>
   </div>
   {/* CARD CENTRAL 1 */}
-  <div className="position-relative z-1">
+  <div className="position-relative z-1 mb-md-5">
     <card-skew className="overflow-hidden rounded-1 mb-3 mb-md-5">
       <div className="feature-card-mktg d-md-flex rounded-3 color-bg-subtle border position-relative flex-justify-between z-1 height-full flex-row">
         <div className="d-md-flex flex-column flex-1 p-5 p-sm-6 py-lg-8 pl-lg-8 pr-lg-12 col-md-6 flex-justify-between">

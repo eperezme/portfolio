@@ -76,10 +76,6 @@
   -webkit-box-decoration-break: clone;
 }
 
-body > .mb-md-5 {
-    margin-bottom: var(--base-size-32, 32px) !important;
-}
-
 .feature-card-mktg .color-fg-muted {
   color: rgba(235,245,255,.5) !important;
 }

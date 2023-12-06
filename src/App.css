@@ -76,6 +76,10 @@
   width: 2px;
 }
 
+body .mb-md-5 {
+  margin-bottom: var(--base-size-32, 32px) !important;
+}
+
 @media (min-width: 768px) {
   .home-campaign-git-line {
     width: 3px;
