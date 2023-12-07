@@ -5,7 +5,7 @@ import './Experience.css'
 
 // IMG
 import IMG7 from '../../assets/graphs/box.png'
-import PORTAL from '../../assets/ideas/portal.png'
+import PORTAL from '../../assets/portal.png'
 
 function Experience() {
   return (
