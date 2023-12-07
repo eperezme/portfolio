@@ -31,3 +31,57 @@
   box-shadow: var(--color-mktg-btn-shadow-outline);
 }
 
+/* TYPEWRITTER */
+.color-0 {
+  color: #ffffff;
+  background-color: rgb(63, 185, 80);
+  border-radius: .5rem;
+}
+
+.color-1 {
+  color: #ffffff;
+  background-color: rgb(51, 179, 174);
+  border-radius: .5rem;
+}
+
+.color-2 {
+  color: #ffffff;
+  background-color: rgb(247, 120, 186);
+  border-radius: .5rem;
+}
+
+.typewriter::after {
+  content: '|'; /* This is your cursor character */
+  animation: blink 1s infinite;
+}
+
+
+@keyframes blink {
+  0% {opacity: 1;}
+  50% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+
+/* IMAGE */
+.image-fade {
+  mask-image: radial-gradient(ellipse at center, var(--bgColor-default) 0%, var(--bgColor-default) 25%, transparent 70%, transparent 100%);
+}
+
+/* Rotate */
+.animation-rotate {
+  animation: rotate 100s linear infinite;
+}
+
+@keyframes rotate {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.animation-reverse-rotate {
+  animation: reverse-rotate 200s linear infinite;
+}
+@keyframes reverse-rotate {
+  0% { transform: rotate(360deg); }
+  100% { transform: rotate(0deg); }
+}

@@ -1,8 +1,9 @@
 import React from 'react'
+import Typewriter from '../../functions/typewrite.jsx'
 
 
 // IMAGES
-import IMG1 from '../../assets/principal-transformed.png'
+import IMG1 from '../../assets/principal.png'
 
 
 
@@ -12,13 +13,14 @@ import CV from '../../assets/CV.pdf'
 
 
 const Header = () => {
+  const textArray = ["Scientist", "Engineer", "Analyst"];
   return (
-      <div className="color-header home-campaign-productivity js-section overflow-hidden px-3 pb-0 pt-5">
+      <div className="color-header home-campaign-productivity js-section px-3 pb-0 pt-5">
         <div className="container-xl position-relative">
-          {/* [ ] Fix image */}
-        <img alt="" aria-hidden="true" width="2236" height="1630" className="position-absolute top-0 height-auto events-none d-none d-sm-block" style={{width: "min(1118px, max(100vh, 100vw))", left: "7%"}} src={IMG1}/>
+          {/* [x] Fix image */}
+        <img alt="" aria-hidden="true" width="2236" height="1630" className="image-fade top-0 position-absolute height-auto events-none d-none d-sm-block" style={{width: "min(1118px, max(100vh, 100vw))", left: "40%"}} src={IMG1}/>
         </div>
-        <div className="color-header home-campaign-hero">
+        <div className="overflow-hidden color-header home-campaign-hero">
           <div className="position-relative pt-3 pt-sm-8 pt-lg-12 container-xl js-build-in-trigger build-in-animate">
             <div className="d-flex pt-sm-9">
               <div className='col-1 d-flex flex-column events-none position-relative'>
@@ -40,6 +42,9 @@ const Header = () => {
                     <h1 className="h0-mktg mb-2 position-relative z-2">
                       <span style={{fontSize: "1.2em"}}>Eduard Perez<br />Mendez</span>
                     </h1>
+                    <h3 className="h3-mktg color-fg-muted mb-5">
+                      Bioinformatics Data <span className='typewriter_text'><Typewriter text={textArray} typingDelay={100} deletingDelay={100} /></span>
+                    </h3>
                     <p className="f2-mktg text-normal color-fg-muted mb-3 mb-md-10 position-relative z-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio optio nisi fugiat recusandae incidunt aut ullam corrupti atque numquam ut tempore nihil unde quibusdam sit iusto, consequatur aspernatur voluptas eos!</p>
                   <div className="d-flex flex-column flex-md-row">
                     <a href={CV} className="btn-mktg download">Download CV</a>

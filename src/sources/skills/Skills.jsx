@@ -29,14 +29,14 @@ function Skills() {
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, iste fugiat officia.
       </h3>
     </div>
-    <img alt="" aria-hidden="true" width="626" height="626" className="position-absolute height-auto d-none d-md-block col-6 events-none js-build-in-item build-in-fade home-shape-rotate build-in-animate" style={{top: "0px", right: "-25%", transitionDelay: "400ms"}} loading="lazy" decoding="async" src="https://github.githubassets.com/assets/shape-0-df97fa6b0c27.svg"/>
+    <img alt="" aria-hidden="true" width="626" height="626" className="animation-reverse-rotate position-absolute height-auto d-none d-md-block col-6 events-none js-build-in-item build-in-fade home-shape-rotate build-in-animate" style={{top: "0px", right: "-25%", transitionDelay: "400ms"}} loading="lazy" decoding="async" src="https://github.githubassets.com/assets/shape-0-df97fa6b0c27.svg"/>
   </div>
   {/* 1st Image center */}
   <div className="js-build-in-trigger build-in-animate">
     <img aria-hidden="true" width={2496} height={1302} loading='lazy' decoding='async' className='width-full d-block height-auto position-relative z-1 rounded-3 border js-build-in-item build-in-slideX-right build-in-animate' src={IMG2} alt="" />
   </div>
   <div className='d-flex js-build-in-trigger position-relative build-in-animate'>
-  <img alt="" aria-hidden="true" width="584" height="584" className="position-absolute height-auto d-none d-md-block col-7 events-none home-shape-rotate" style={{bottom: "-50%", right: "-20%", animationDuration: "300s"}} loading="lazy" decoding="async" src="https://github.githubassets.com/assets/shape-1-c219318e479a.svg"/>
+  <img alt="" aria-hidden="true" width="584" height="584" className="animation-rotate position-absolute height-auto d-none d-md-block col-7 events-none home-shape-rotate" style={{bottom: "-50%", right: "-20%", animationDuration: "300s"}} loading="lazy" decoding="async" src="https://github.githubassets.com/assets/shape-1-c219318e479a.svg"/>
   <div className="col-1 d-flex flex-column flex-items-center position-relative">
     <div className="home-campaign-git-line height-full position-relative z-1 js-build-in-item build-in-scale-top build-in-animate" style={{transitionDuration: "900ms", background: "linear-gradient(transparent, rgb(63, 185, 80), rgb(63, 185, 80), transparent)", transitionDelay: "0ms",}}></div>
     <img alt="" aria-hidden="true" width="81" height="485" style={{left: "calc(50% - 2px)", height: "auto", maxWidth: "9vw", transitionDelay: "100ms",}} className="d-none d-md-block position-absolute bottom-4 js-build-in-item build-in-scale-fade build-in-animate" loading="lazy" decoding="async" src="https://github.githubassets.com/assets/git-branch-productivity-c304b83d09c7.svg"></img>

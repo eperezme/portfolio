@@ -24,7 +24,7 @@ function Experience() {
                 Lorem ipsum dolor sit.
             </h2>
           </div>
-          <img alt="" aria-hidden="true" width="595" height="595" className="position-absolute height-auto d-none d-md-block col-8 events-none" style={{top: "-10%", right: "-25%",}} loading="lazy" decoding="async" src="https://github.githubassets.com/assets/shape-2-f30dcc9bd35c.svg"></img>
+          <img alt="" aria-hidden="true" width="595" height="595" className="animation-reverse-rotate position-absolute height-auto d-none d-md-block col-8 events-none" style={{top: "-10%", right: "-25%",}} loading="lazy" decoding="async" src="https://github.githubassets.com/assets/shape-2-f30dcc9bd35c.svg"></img>
         </div>
         {/* MAIN CARD */}
         <card-skew className="overflow-hidden rounded-3 mb-3 mb-md-5 position-relative z-1">

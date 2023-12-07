@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import Typewriter from './functions/typewrite.jsx'
 
 // CSS
 import "./index.css"
