@@ -1,6 +1,5 @@
 import React from 'react'
 
-
 // IMG
 import PORTAL from '../../assets/ideas/portal.png'
 
