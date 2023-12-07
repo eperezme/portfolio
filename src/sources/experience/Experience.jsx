@@ -3,6 +3,10 @@ import React from 'react'
 // CSS
 import './Experience.css'
 
+// IMG
+import IMG7 from '../../assets/graphs/box.png'
+import PORTAL from '../../assets/ideas/portal.png'
+
 function Experience() {
   return (
     <div className='color-experience home-campaign-security js-section overflow-hidden px-3 pb-8 pt-5'>
@@ -18,10 +22,10 @@ function Experience() {
             <div className="home-campaign-git-line height-full rounded js-build-in-item build-in-scale-top build-in-animate git-line-blue-upper"></div>
           </div>
           <div className="col-11 col-lg-7 ml-2 ml-md-0 mb-6 mb-md-10 pr-lg-3">
-            <h3 className="h5-mktg mb-4 text-medium js-build-in-item build-in-slideX-left build-in-animate" style={{transitionDelay: "200ms"}}>WORK</h3>
-            <h2 className="h3-mktg mb-4 text-medium js-build-in-item build-in-slideX-left build-in-animate" style={{transitionDelay: "300ms"}}>
-              <span className="text-accent-primary d-block">Lorem Ipsum </span>
-                Lorem ipsum dolor sit.
+            <h3 className="h5-mktg mb-4 text-medium js-build-in-item build-in-slideX-left build-in-animate" style={{transitionDelay: "200ms"}}>Work</h3>
+            <h2 className="h4-mktg mb-4 text-medium js-build-in-item build-in-slideX-left build-in-animate" style={{transitionDelay: "300ms"}}>
+              <span className="h3-mktg text-accent-primary d-block">Experience </span>
+                Appart from unpaid intern not really.
             </h2>
           </div>
           <img alt="" aria-hidden="true" width="595" height="595" className="animation-reverse-rotate position-absolute height-auto d-none d-md-block col-8 events-none" style={{top: "-10%", right: "-25%",}} loading="lazy" decoding="async" src="https://github.githubassets.com/assets/shape-2-f30dcc9bd35c.svg"></img>
@@ -60,7 +64,7 @@ function Experience() {
                 <div className="position-relative">
                   <div className="d-flex flex-column position-relative">
                     <div className="js-build-in-item build-in-slideX-right border overflow-hidden rounded-2 position-relative left-6 z-1 build-in-animate" style={{maxWidth: "541px", marginTop: "-30%", transitionDelay: "100ms"}}>
-                    <img src="https://github.githubassets.com/assets/illu-ghas-list-84af1f1ce2b8.png" alt="" loading="lazy" decoding="async" width="1084" height="600" className="width-full height-auto d-block"/>
+                    <img src={IMG7} alt="" loading="lazy" decoding="async" width="1084" height="600" className="rounded-2 width-full height-auto d-block"/>
                     </div>
                     <img alt="" aria-hidden="true" width="1000" height="1000" className="position-absolute d-none d-md-block events-none js-build-in-item build-in-fade build-in-animate" style={{bottom: "-160px", right: "-220px", transitionDelay: "200ms"}} loading="lazy" decoding="async" src="https://github.githubassets.com/assets/bg-glow-blue-036b8dc2d1ce.png"></img>
                   </div>
@@ -96,15 +100,15 @@ function Experience() {
               </div>
               <div className="overflow-hidden col-md-6 rounded-right-3">
                 <picture>
-                <source srcSet="https://github.githubassets.com/assets/illu-code-scanning-fc9dfb212aa3.png?width=1288&amp;format=webpll 1288w,
+                {/* <source srcSet="https://github.githubassets.com/assets/illu-code-scanning-fc9dfb212aa3.png?width=1288&amp;format=webpll 1288w,
                                 https://github.githubassets.com/assets/illu-code-scanning-fc9dfb212aa3.png?width=1030&amp;format=webpll 1030w,
                                 https://github.githubassets.com/assets/illu-code-scanning-fc9dfb212aa3.png?width=772&amp;format=webpll 772w,
                                 https://github.githubassets.com/assets/illu-code-scanning-fc9dfb212aa3.png?width=644&amp;format=webpll 644w,
                                 https://github.githubassets.com/assets/illu-code-scanning-fc9dfb212aa3.png?width=515&amp;format=webpll 515w,
                                 https://github.githubassets.com/assets/illu-code-scanning-fc9dfb212aa3.png?width=257&amp;format=webpll 257w" 
-                sizes="(max-width: 768px) 90vw, (max-width: 1280px) 50vw, 644px" type="image/webp"/>
+                sizes="(max-width: 768px) 90vw, (max-width: 1280px) 50vw, 644px" type="image/webp"/> */}
                 {/* Image */}
-                <img className="width-full d-block height-auto js-build-in-item build-in-scale-fade build-in-animate" width="1288" height="992" loading="lazy" decoding="async" alt="" aria-hidden="true" src="https://github.githubassets.com/assets/illu-code-scanning-fc9dfb212aa3.png"></img>
+                <img className="width-full d-block height-auto js-build-in-item build-in-scale-fade build-in-animate" width="1288" height="992" loading="lazy" decoding="async" alt="" aria-hidden="true" src={PORTAL}></img>
                 </picture>
               </div>
               <div className="position-absolute bottom-0 right-0 events-none z-n1" style={{transform: "translate(324.78px, 121.285px)"}}></div>
@@ -130,13 +134,13 @@ function Experience() {
                 </div>
                 <div className="overflow-hidden rounded-bottom-3">
                   <picture>
-                  <source srcSet="https://github.githubassets.com/assets/illu-dependabot-d98c73cc6724.png?width=1208&amp;format=webpll 1208w,
+                  {/* <source srcSet="https://github.githubassets.com/assets/illu-dependabot-d98c73cc6724.png?width=1208&amp;format=webpll 1208w,
                   https://github.githubassets.com/assets/illu-dependabot-d98c73cc6724.png?width=966&amp;format=webpll 966w,
                   https://github.githubassets.com/assets/illu-dependabot-d98c73cc6724.png?width=724&amp;format=webpll 724w,
                   https://github.githubassets.com/assets/illu-dependabot-d98c73cc6724.png?width=604&amp;format=webpll 604w,
                   https://github.githubassets.com/assets/illu-dependabot-d98c73cc6724.png?width=483&amp;format=webpll 483w,
-                  https://github.githubassets.com/assets/illu-dependabot-d98c73cc6724.png?width=241&amp;format=webpll 241w" sizes="(max-width: 768px) 90vw, (max-width: 1280px) 50vw, 604px" type="image/webp"/>
-                  <img className="width-full d-block height-auto js-build-in-item build-in-scale-fade build-in-animate" width="1208" height="764" loading="lazy" decoding="async" alt="" aria-hidden="true" src="https://github.githubassets.com/assets/illu-dependabot-d98c73cc6724.png"/>
+                  https://github.githubassets.com/assets/illu-dependabot-d98c73cc6724.png?width=241&amp;format=webpll 241w" sizes="(max-width: 768px) 90vw, (max-width: 1280px) 50vw, 604px" type="image/webp"/> */}
+                  <img className="rounded-3 width-full d-block height-auto js-build-in-item build-in-scale-fade build-in-animate" width="1208" height="764" loading="lazy" decoding="async" alt="" aria-hidden="true" src={PORTAL}/>
                   </picture>
                 </div>
                 <div data-target="card-skew.shine" className="position-absolute bottom-0 right-0 events-none z-n1" style={{transform: "translate(324.41px, -78.27px)"}}></div>
@@ -160,8 +164,8 @@ function Experience() {
       </div>
       <div className="overflow-hidden rounded-bottom-3">
         <picture>
-          <source srcSet="https://github.githubassets.com/assets/illu-secret-scanning-2-88fb429376d6.png?width=1208&amp;format=webpll 1208w,https://github.githubassets.com/assets/illu-secret-scanning-2-88fb429376d6.png?width=966&amp;format=webpll 966w,https://github.githubassets.com/assets/illu-secret-scanning-2-88fb429376d6.png?width=724&amp;format=webpll 724w,https://github.githubassets.com/assets/illu-secret-scanning-2-88fb429376d6.png?width=604&amp;format=webpll 604w,https://github.githubassets.com/assets/illu-secret-scanning-2-88fb429376d6.png?width=483&amp;format=webpll 483w,https://github.githubassets.com/assets/illu-secret-scanning-2-88fb429376d6.png?width=241&amp;format=webpll 241w" sizes="(max-width: 768px) 90vw, (max-width: 1280px) 50vw, 604px" type="image/webp"/>
-          <img className="width-full d-block height-auto js-build-in-item build-in-scale-fade build-in-animate" width="1208" height="804" loading="lazy" decoding="async" alt="" aria-hidden="true" src="https://github.githubassets.com/assets/illu-secret-scanning-2-88fb429376d6.png"/>
+          {/* <source srcSet="https://github.githubassets.com/assets/illu-secret-scanning-2-88fb429376d6.png?width=1208&amp;format=webpll 1208w,https://github.githubassets.com/assets/illu-secret-scanning-2-88fb429376d6.png?width=966&amp;format=webpll 966w,https://github.githubassets.com/assets/illu-secret-scanning-2-88fb429376d6.png?width=724&amp;format=webpll 724w,https://github.githubassets.com/assets/illu-secret-scanning-2-88fb429376d6.png?width=604&amp;format=webpll 604w,https://github.githubassets.com/assets/illu-secret-scanning-2-88fb429376d6.png?width=483&amp;format=webpll 483w,https://github.githubassets.com/assets/illu-secret-scanning-2-88fb429376d6.png?width=241&amp;format=webpll 241w" sizes="(max-width: 768px) 90vw, (max-width: 1280px) 50vw, 604px" type="image/webp"/> */}
+          <img className="rounded-3 width-full d-block height-auto js-build-in-item build-in-scale-fade build-in-animate" width="1208" height="804" loading="lazy" decoding="async" alt="" aria-hidden="true" src={PORTAL}/>
           </picture></div>
       
 

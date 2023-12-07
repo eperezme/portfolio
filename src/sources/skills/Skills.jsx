@@ -5,6 +5,11 @@ import './Skills.css'
 
 // Images
 import IMG2 from '../../assets/wood.jpg'
+import IMG3 from '../../assets/mev.jpg'
+import IMG4 from '../../assets/graphs/diabplot.png'
+import IMG5 from '../../assets/graphs/surv2.png'
+import IMG6 from '../../assets/graphs/lambda.png'
+
 
 function Skills() {
   return (
@@ -23,9 +28,9 @@ function Skills() {
       <div className='home-campaign-git-line height-full rounded js-build-in-item build-in-scale-top build-in-animate' style={{background: "linear-gradient(rgb(63, 185, 80), rgb(46, 160, 67), transparent)", transitionDelay: "500ms"}}></div>
     </div>
     <div className="col-11 col-lg-8 ml-2 ml-md-0 mb-6 mb-md-10">
-      <h2 className="h5-mktg mb-4 text-medium js-build-in-item build-in-slideX-left build-in-animate" style={{transitionDelay: "200ms"}}>Skills</h2>
+      <h2 className="h5-mktg mb-4 text-medium js-build-in-item build-in-slideX-left build-in-animate" style={{transitionDelay: "200ms"}}>About Me</h2>
       <h3 className='h3-mktg mb-4 text-medium js-build-in-item build-in-slideX-left build-in-animate' style={{transitionDelay: "300ms"}}>
-        <span className='text-accent-primary d-block'>Languages and Tools</span>
+        <span className='text-accent-primary d-block'>Master in Bioinformatics & Biostatistics</span>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, iste fugiat officia.
       </h3>
     </div>
@@ -58,9 +63,12 @@ function Skills() {
           <div className="js-build-in-item build-in-slideX-right overflow-hidden rounded-3 position-relative z-1 d-none d-md-block build-in-animate" style={{maxWidth: "480px", marginTop: "-100%", transitionDelay: "100ms",}}>
             {/* Lateral image */}
             {/* [ ] REPLACE IMAGE */}
-            <img src="https://github.githubassets.com/assets/illu-copilot-sidebar-3d2efb504577.png" loading="lazy" width="960" height="1222" alt="" decoding="async" className="width-full d-block height-auto"/>
+            <img src={IMG3} loading="lazy" width="960" height="1222" alt="" decoding="async" className="rounded-3 width-full d-block height-auto"/>
           </div>
-          <img alt="" aria-hidden="true" width="1000" height="1000" className="position-absolute d-none d-md-block events-none js-build-in-item build-in-fade build-in-animate" style={{bottom: "-300px", right: "-200px", transitionDelay: "300ms",}} loading="lazy" decoding="async" src="https://github.githubassets.com/assets/bg-glow-purple-6e9a6a96cb04.png"></img>
+          <div className='js-build-in-item build-in-slideX-right overflow-hidden rounded-3 position-absolute right-3 bottom-3 bottom-sm-0 z-1 d-md-none build-in-animate style={{bottom: "-300px", right: "-200px", transitionDelay: "300ms",}} '>
+          <img alt="" aria-hidden="true" width="1000" height="1000" className="width-full d-block height-auto" loading="lazy" decoding="async" src="https://github.githubassets.com/assets/bg-glow-purple-6e9a6a96cb04.png"></img>
+          </div>
+          
           </div>
         </div>
       </div>
@@ -68,10 +76,10 @@ function Skills() {
     <div className="mb-6 mb-md-7 pb-4 js-build-in-trigger build-in-animate">
         <div className="py-3 text-left col-sm-8 col-md-7 col-lg-6 col-xl-5 js-build-in-item build-in-slideX-left build-in-animate" style={{transitionDelay: "600ms"}}>
           <div className="gradient-border-mktg d-inline-block z-1 position-relative px-2 lh-condensed f6-mktg" style={{top: "-1px"}}>
-          <span className="text-gradient-mktg text-semibold">Did you know?</span>
+          <span className="text-gradient-mktg text-semibold">What do I have?</span>
           </div>
-          <h3 className="text-accent-primary mb-2 mt-3 h1-mktg text-medium">LOREM IPSUM</h3>
-          <p className="mb-3 f2-mktg text-medium col-6-max">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque!</p>
+          <h3 className="text-accent-primary mb-2 mt-3 h1-mktg text-medium">Skills</h3>
+          <p className="mb-3 f2-mktg text-medium col-6-max">Proficient with multiple programming languages and skills</p>
           <a href="" className="link-mktg text-semibold color-fg-default py-1 f3-mktg">Button</a>
         </div>
       </div>
@@ -91,8 +99,9 @@ function Skills() {
           </div>
         </div>
         <div className="overflow-hidden col-md-6 rounded-right-3">
+          {/* IMG */}
           <picture>
-          <img className="width-full d-block height-auto" width="1306" height="992" loading="lazy" decoding="async" alt="" aria-hidden="true" src="https://github.githubassets.com/assets/illu-actions-2-c5178134f381.png"/>
+          <img className="rounded-3 width-full d-block height-auto" width="1306" height="992" loading="lazy" decoding="async" alt="" aria-hidden="true" src={IMG4}/>
           </picture>
         </div>
         <div className="position-absolute bottom-0 right-0 events-none z-n1" style={{transform: "translate(165px, 81.92px)",}}></div>
@@ -115,8 +124,9 @@ function Skills() {
             </div>
           </div>
           <div className="overflow-hidden rounded-bottom-3">
+            {/* IMG */}
             <picture>
-            <img className="width-full d-block height-auto js-build-in-item build-in-scale-fade build-in-animate" width="1209" height="890" loading="lazy" decoding="async" alt="" aria-hidden="true" src="https://github.githubassets.com/assets/illu-codespaces-1d2d17e8b2b7.png"/>
+            <img className="width-full d-block height-auto rounded-3 js-build-in-item build-in-scale-fade build-in-animate" width="1209" height="890" loading="lazy" decoding="async" alt="" aria-hidden="true" src={IMG5}/>
             </picture>
           </div>
           <div className="position-absolute bottom-0 right-0 events-none z-n1"></div>
@@ -137,8 +147,9 @@ function Skills() {
             </div>
           </div>
           <div className="overflow-hidden rounded-bottom-3">
+            {/* IMG */}
             <picture>
-            <img className="width-full d-block height-auto js-build-in-item build-in-scale-fade build-in-animate" width="1209" height="890" loading="lazy" decoding="async" alt="" aria-hidden="true" src="https://github.githubassets.com/assets/illu-mobile-4d51d19f769e.png"/>
+            <img className="width-full d-block height-auto js-build-in-item build-in-scale-fade build-in-animate rounded-3" width="1209" height="890" loading="lazy" decoding="async" alt="" aria-hidden="true" src={IMG6}/>
             </picture>
           </div>
           <div className="position-absolute bottom-0 right-0 events-none z-n1"></div>

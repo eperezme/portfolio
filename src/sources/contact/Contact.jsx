@@ -2,7 +2,7 @@ import React from 'react'
 
 function Contact() {
   return (
-    <div className='color-header home-campaign-footer position-relative js-section overflow-hidden'>
+    <div id="contact" className='color-header home-campaign-footer position-relative js-section overflow-hidden'>
       <div className="container-xl position-relative z-2 px-3">
         <div className="d-flex js-build-in-trigger" data-build-in-stagger='100'>
           <div className="col-1 d-flex flex-column flex-items-center js-build-in-trigger">

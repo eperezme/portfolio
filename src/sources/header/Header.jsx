@@ -50,7 +50,7 @@ const Header = () => {
                     <a href={CV} className="btn-mktg download">Download CV</a>
                     <div className="border-top border-md-left mx-md-3 mb-3 mb-md-0"></div>
                     {/* [ ] href to contact me section*/}
-                    <a href="" className="btn-mktg home-campaing-enterprise btn-muted-mktg" data-test-selector="start-trial-button">Contact Me</a>
+                    <a href="#contact" className="btn-mktg home-campaing-enterprise btn-muted-mktg" data-test-selector="start-trial-button">Contact Me</a>
                   </div>
                   <div className="my-8 my-md-10 build-in-animate col-12"></div>
                   </div>

@@ -1,5 +1,9 @@
 import React from 'react'
 
+
+// IMG
+import PORTAL from '../../assets/ideas/portal.png'
+
 function Projects() {
   return (
     <div className='color-projects home-campaign-collaboration js-section pt-5 px-3 overflow-hidden'>
@@ -16,19 +20,19 @@ function Projects() {
           </div>
           <div className="col-11 col-lg-8 ml-2 ml-md-0 mb-6 mb-md-10 pr-lg-3">
             <h3 className="h5-mktg mb-4 text-medium js-build-in-item build-in-slideX-left build-in-animate" style={{transitionDelay: "200ms"}}>
-              Projects
+              Learning
             </h3>
-            <h2 className="h3-mktg mb-4 text-medium js-build-in-item build-in-slideX-left build-in-animate" style={{transitionDelay: "300ms"}}>
-              <span className='text-accent-primary d-block'>Lorem Ipsum</span>
-              dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.
+            <h2 className="h4-mktg mb-4 text-medium js-build-in-item build-in-slideX-left build-in-animate" style={{transitionDelay: "300ms"}}>
+              <span className='h3-mktg text-accent-primary d-block'>Personal Projects</span>
+              Stuff I made for fun
             </h2>
           </div>
           <img alt="" aria-hidden="true" width="502" height="735" className="animation-rotate position-absolute height-auto d-none d-md-block col-5 events-none js-build-in-item build-in-fade build-in-animate" style={{top: "-9%", right: "-12%", transitionDelay: "400ms",}} loading="lazy" decoding="async" src="https://github.githubassets.com/assets/shape-3-9e542b5c31b8.svg"></img>
         </div>
         {/* IMAGEN CENTRAL */}
         <picture>
-        <source srcSet="https://github.githubassets.com/assets/issues-plan-2-46d1ce1d4519.png?width=2498&amp;format=webpll 2498w,https://github.githubassets.com/assets/issues-plan-2-46d1ce1d4519.png?width=1998&amp;format=webpll 1998w,https://github.githubassets.com/assets/issues-plan-2-46d1ce1d4519.png?width=1498&amp;format=webpll 1498w,https://github.githubassets.com/assets/issues-plan-2-46d1ce1d4519.png?width=1249&amp;format=webpll 1249w,https://github.githubassets.com/assets/issues-plan-2-46d1ce1d4519.png?width=999&amp;format=webpll 999w,https://github.githubassets.com/assets/issues-plan-2-46d1ce1d4519.png?width=499&amp;format=webpll 499w" sizes="(max-width: 1200px) 90vw, 1248px" type="image/webp"/>
-        <img className="position-relative z-1 width-full height-auto d-block rounded-3 border box-shadow-card-dark-mktg" width="2498" height="1450" loading="lazy" decoding="async" alt="Illustration of project table view with cards grouped by 'Feature planning' phase." src="https://github.githubassets.com/assets/issues-plan-2-46d1ce1d4519.png"></img>
+        {/* <source srcSet="https://github.githubassets.com/assets/issues-plan-2-46d1ce1d4519.png?width=2498&amp;format=webpll 2498w,https://github.githubassets.com/assets/issues-plan-2-46d1ce1d4519.png?width=1998&amp;format=webpll 1998w,https://github.githubassets.com/assets/issues-plan-2-46d1ce1d4519.png?width=1498&amp;format=webpll 1498w,https://github.githubassets.com/assets/issues-plan-2-46d1ce1d4519.png?width=1249&amp;format=webpll 1249w,https://github.githubassets.com/assets/issues-plan-2-46d1ce1d4519.png?width=999&amp;format=webpll 999w,https://github.githubassets.com/assets/issues-plan-2-46d1ce1d4519.png?width=499&amp;format=webpll 499w" sizes="(max-width: 1200px) 90vw, 1248px" type="image/webp"/> */}
+        <img className="position-relative z-1 width-full height-auto d-block rounded-3 border box-shadow-card-dark-mktg" width="2498" height="1450" loading="lazy" decoding="async" alt="Illustration of project table view with cards grouped by 'Feature planning' phase." src={PORTAL}></img>
         </picture>
         <div className="d-flex position-relative">
           <div className="col-1 d-flex flex-column flex-items-center position-relative js-build-in-trigger build-in-animate">
@@ -53,7 +57,7 @@ function Projects() {
                 <div className="position-relative">
                   <div className="d-flex flex-column position-relative">
                     <div className="js-build-in-item build-in-slideY border box-shadow-mktg-xl overflow-hidden rounded-2 position-relative left-4 z-1 build-in-animate" style={{maxWidth: "595px", marginTop: "-50%", transitionDelay: "100ms"}}>
-                    <img src="https://github.githubassets.com/assets/illu-projects-2-26077f1dd188.png" alt="" loading="lazy" decoding="async" width="1190" height="964" className="width-full height-auto d-block"/>
+                    <img src={PORTAL} alt="" loading="lazy" decoding="async" width="1190" height="964" className="width-full height-auto d-block"/>
                     </div>
                     <img alt="" aria-hidden="true" width="1000" height="1000" className="position-absolute d-none d-md-block events-none js-build-in-item build-in-fade build-in-animate" style={{bottom: "-300px", right: "-240px", transitionDelay: "200ms",}} loading="lazy" decoding="async" src="https://github.githubassets.com/assets/bg-glow-purple-6e9a6a96cb04.png"></img>
                   </div>
@@ -93,8 +97,8 @@ function Projects() {
                 </div>
                 <div className="overflow-hidden rounded-bottom-3">
                   <picture>
-                    <source srcSet="https://github.githubassets.com/assets/illu-discussions-2-b915a6dd867e.png?width=1208&amp;format=webpll 1208w,https://github.githubassets.com/assets/illu-discussions-2-b915a6dd867e.png?width=966&amp;format=webpll 966w,https://github.githubassets.com/assets/illu-discussions-2-b915a6dd867e.png?width=724&amp;format=webpll 724w,https://github.githubassets.com/assets/illu-discussions-2-b915a6dd867e.png?width=604&amp;format=webpll 604w,https://github.githubassets.com/assets/illu-discussions-2-b915a6dd867e.png?width=483&amp;format=webpll 483w,https://github.githubassets.com/assets/illu-discussions-2-b915a6dd867e.png?width=241&amp;format=webpll 241w" sizes="(max-width: 768px) 90vw, (max-width: 1280px) 50vw, 604px" type="image/webp"/>
-                    <img className="width-full d-block height-auto js-build-in-item build-in-scale-up build-in-animate" width="1208" height="804" loading="lazy" decoding="async" alt="" aria-hidden="true" src="https://github.githubassets.com/assets/illu-discussions-2-b915a6dd867e.png"></img>
+                    {/* <source srcSet="https://github.githubassets.com/assets/illu-discussions-2-b915a6dd867e.png?width=1208&amp;format=webpll 1208w,https://github.githubassets.com/assets/illu-discussions-2-b915a6dd867e.png?width=966&amp;format=webpll 966w,https://github.githubassets.com/assets/illu-discussions-2-b915a6dd867e.png?width=724&amp;format=webpll 724w,https://github.githubassets.com/assets/illu-discussions-2-b915a6dd867e.png?width=604&amp;format=webpll 604w,https://github.githubassets.com/assets/illu-discussions-2-b915a6dd867e.png?width=483&amp;format=webpll 483w,https://github.githubassets.com/assets/illu-discussions-2-b915a6dd867e.png?width=241&amp;format=webpll 241w" sizes="(max-width: 768px) 90vw, (max-width: 1280px) 50vw, 604px" type="image/webp"/> */}
+                    <img className="width-full d-block height-auto js-build-in-item build-in-scale-up build-in-animate" width="1208" height="804" loading="lazy" decoding="async" alt="" aria-hidden="true" src={PORTAL}></img>
                   </picture>
                 </div>
                 <div data-target="card-skew.shine" className="position-absolute bottom-0 right-0 events-none z-n1"></div>
@@ -119,8 +123,8 @@ function Projects() {
               </div>
               <div className="overflow-hidden rounded-bottom-3">
                 <picture>
-                  <source srcSet="https://github.githubassets.com/assets/illu-pull-requests-2-280cc958fc05.png?width=1208&amp;format=webpll 1208w,https://github.githubassets.com/assets/illu-pull-requests-2-280cc958fc05.png?width=966&amp;format=webpll 966w,https://github.githubassets.com/assets/illu-pull-requests-2-280cc958fc05.png?width=724&amp;format=webpll 724w,https://github.githubassets.com/assets/illu-pull-requests-2-280cc958fc05.png?width=604&amp;format=webpll 604w,https://github.githubassets.com/assets/illu-pull-requests-2-280cc958fc05.png?width=483&amp;format=webpll 483w,https://github.githubassets.com/assets/illu-pull-requests-2-280cc958fc05.png?width=241&amp;format=webpll 241w" sizes="(max-width: 768px) 90vw, (max-width: 1280px) 50vw, 604px" type="image/webp"/>
-                  <img className="width-full d-block height-auto js-build-in-item build-in-scale-up build-in-animate" width="1208" height="804" loading="lazy" decoding="async" alt="" aria-hidden="true" src="https://github.githubassets.com/assets/illu-pull-requests-2-280cc958fc05.png"></img>
+                  {/* <source srcSet="https://github.githubassets.com/assets/illu-pull-requests-2-280cc958fc05.png?width=1208&amp;format=webpll 1208w,https://github.githubassets.com/assets/illu-pull-requests-2-280cc958fc05.png?width=966&amp;format=webpll 966w,https://github.githubassets.com/assets/illu-pull-requests-2-280cc958fc05.png?width=724&amp;format=webpll 724w,https://github.githubassets.com/assets/illu-pull-requests-2-280cc958fc05.png?width=604&amp;format=webpll 604w,https://github.githubassets.com/assets/illu-pull-requests-2-280cc958fc05.png?width=483&amp;format=webpll 483w,https://github.githubassets.com/assets/illu-pull-requests-2-280cc958fc05.png?width=241&amp;format=webpll 241w" sizes="(max-width: 768px) 90vw, (max-width: 1280px) 50vw, 604px" type="image/webp"/> */}
+                  <img className="width-full d-block height-auto js-build-in-item build-in-scale-up build-in-animate" width="1208" height="804" loading="lazy" decoding="async" alt="" aria-hidden="true" src={PORTAL}></img>
                 </picture>
               </div>
               <div data-target="card-skew.shine" className="position-absolute bottom-0 right-0 events-none z-n1" style={{transform: "translate(291.93px, -99.87px)"}}></div>
@@ -146,7 +150,7 @@ function Projects() {
             <div className="overflow-hidden col-md-6 rounded-right-3">
               <div className="d-flex flex-wrap position-relative top-n12 mt-n4 right-n4 p-4 js-build-in-trigger build-in-animate" style={{maxHeight: "480px"}}>
                 {/* [ ] IMAGE */}
-                <img src="" alt="" />
+                <img className="width-full d-block height-auto js-build-in-item build-in-scale-fade build-in-animate" width="1288" height="992" loading="lazy" decoding="async" alt="" aria-hidden="true"src={PORTAL}/>
               </div>
             </div>
             <div data-target="card-skew.shine" className="position-absolute bottom-0 right-0 events-none z-n1" style={{transform: "translate(312.75px, -18.905px)"}}></div>
